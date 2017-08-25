@@ -1,0 +1,46 @@
+body {
+  font-family: sans-serif;
+  font-size: 22px;
+  background-color: white;
+  color: black;
+  letter-spacing: 0.05rem;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-contect: center;
+  width: 40rem;
+  margin: 10vh auto;
+  }
+  
+  .word {
+    width: 100%;
+  }
+  
+  .word-num {
+    margin: auto;
+    margin-bottom: 2.5rem;
+    color: #DDDDDD;
+    text-transfrom: uppercase;
+    letter-spacing: 0.1rem;
+    font-weight: bolder;
+    font-size: 1rem;
+}
+
+.word-button {
+  outline: none;
+  padding: 1rem 1.5rem;
+  display: inline-block;
+  margin: auto;
+  font-size: 1rem;
+  margin-top: 2.5rem;
+  cursor: pointer;
+  font-weight: bolder;
+  border: none;
+  color: white;
+  }
+  
+  .disabled {
+    background-color: grey !important;
+    color: black;
+    cursor: not-alloed !important;
+}
